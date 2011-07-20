@@ -7,6 +7,7 @@ gem 'rails', '3.0.7'
 
 gem 'sqlite3'
 gem 'nifty-generators'
+gem "rake", "0.8.7"
 gem 'mocha'
 gem 'dynamic_form'
 gem 'jquery-rails'

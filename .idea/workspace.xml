@@ -42,10 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elements_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="elements_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/elements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="11" selection-start="575" selection-end="575" vertical-scroll-proportion="0.66246057">
+            <state line="28" column="11" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="19" selection-start="196" selection-end="196" vertical-scroll-proportion="0.20347004">
               <folding />
             </state>
           </provider>
@@ -121,7 +130,6 @@
         <option value="$PROJECT_DIR$/app/views/elements/_elements.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/db/migrate/20110720141010_rename_column.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/eltype.rb" />
         <option value="$PROJECT_DIR$/app/views/elements/create.js.erb" />
         <option value="$PROJECT_DIR$/app/models/element.rb" />
@@ -131,6 +139,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/elements/update.js.erb" />
         <option value="$PROJECT_DIR$/app/controllers/elements_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -651,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2972561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/element.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="35" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
@@ -723,7 +725,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/elements_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="11" selection-start="575" selection-end="575" vertical-scroll-proportion="0.66246057">
+        <state line="28" column="11" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="196" selection-end="196" vertical-scroll-proportion="0.20347004">
           <folding />
         </state>
       </provider>
