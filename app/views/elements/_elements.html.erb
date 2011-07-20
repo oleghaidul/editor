@@ -1,0 +1,6 @@
+  <% for element in @elements %>
+      <%= link_to "Edit", edit_element_path(element), :remote => true %>    |
+      <%= link_to "Destroy", element, :remote => true, :method => :delete %>  |
+      <input name="<%= element.name %>" type="<%= element.type_el %>" value="<%= element.title %>">
+    <br />
+  <% end %>

@@ -1,0 +1,16 @@
+<%= form_for(@element, :remote => true) do |f| %>
+  <div id= "element_errors" style="display:none"></div>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :type_el, "Input type (radio, reset, text, checkbox)" %><br />
+    <%= f.text_field :type_el %>
+  </p>
+    <p><%= f.submit %></p>
+<% end %>
