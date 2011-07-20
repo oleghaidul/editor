@@ -7,5 +7,6 @@
   $("#flash_notice").html("<%= escape_javascript(flash[:notice])%>");
   $("#flash_notice").show(300);
   $(":input:not(input[type=submit])").val("");
+  $("#element_form").html("<%= escape_javascript( render(:partial => "form") ) %>");
   $("#elements_list").html("<%= escape_javascript( render(:partial => "elements") ) %>");
 <% end -%>

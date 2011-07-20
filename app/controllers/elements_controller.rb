@@ -5,7 +5,6 @@ class ElementsController < ApplicationController
   def load
     @elements = Element.all
     @element = Element.new
-    @eltypes = Eltype.all
   end
 
   def index
@@ -27,6 +26,7 @@ class ElementsController < ApplicationController
     @element = Element.find(params[:id])
     if @element.update_attributes(params[:element])
       flash[:notice] = "Successfully updated element."
+      index
       @elements = Element.all
     end
   end
